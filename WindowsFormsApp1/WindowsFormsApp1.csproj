@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addAcademic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addAcademic.Designer.cs">
+      <DependentUpon>addAcademic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Main_Menu.Designer.cs">
+      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,15 @@
     <Compile Include="WelcomePage.Designer.cs">
       <DependentUpon>WelcomePage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="addAcademic.resx">
+      <DependentUpon>addAcademic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Main_Menu.resx">
+      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -225,6 +252,7 @@
     <Content Include="Resources\My project %284%29.png" />
     <Content Include="Resources\My project %285%29.png" />
     <Content Include="Resources\noti.png" />
+    <None Include="Resources\noti1.png" />
     <Content Include="Resources\P.png" />
     <Content Include="Resources\PROF.png" />
     <Content Include="Resources\profile-icon-9.png" />
