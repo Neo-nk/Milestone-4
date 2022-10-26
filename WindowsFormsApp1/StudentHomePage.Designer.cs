@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class HomePage
+    partial class StudentHomePage
     {
         /// <summary>
         /// Required designer variable.

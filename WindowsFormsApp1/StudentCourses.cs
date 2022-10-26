@@ -142,7 +142,7 @@ namespace WindowsFormsApp1
 
                 if (selectedCourses[0] != selectedCourses[1])
                 {
-                    HomePage home = new HomePage();
+                    StudentHomePage home = new StudentHomePage();
                     home.ShowDialog();
                     home.course1= selectedCourses[0];
                     home.course2 = selectedCourses[1];

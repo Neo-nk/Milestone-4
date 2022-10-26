@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class HomePage : Form
+    public partial class StudentHomePage : Form
     {
 
         public string course1 { get; set; }
         public string course2 { get; set; }
-        public HomePage()
+        public StudentHomePage()
         {
             InitializeComponent();
         }

@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Login : Form
+    public partial class StudentLogin : Form
     {
         Dictionary<string, string> Students = new Dictionary<string, string>();
        
 
-        public Login()
+        public StudentLogin()
         {
             InitializeComponent();
         }
@@ -103,7 +103,7 @@ namespace WindowsFormsApp1
 
         private void Register_Click(object sender, EventArgs e)
         {
-            Registration register = new Registration();
+            StudentRegistration register = new StudentRegistration();
             this.Visible = false;
             register.ShowDialog();
         }

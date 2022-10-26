@@ -52,11 +52,23 @@
     <Compile Include="addAcademic.Designer.cs">
       <DependentUpon>addAcademic.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin_Main_Menu.cs">
+    <Compile Include="AdminLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin_Main_Menu.Designer.cs">
-      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRegistration.Designer.cs">
+      <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMainMenu.Designer.cs">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Feedback.cs">
       <SubType>Form</SubType>
@@ -64,23 +76,29 @@
     <Compile Include="Feedback.Designer.cs">
       <DependentUpon>Feedback.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.cs">
+    <Compile Include="StudentHomePage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage.Designer.cs">
-      <DependentUpon>HomePage.cs</DependentUpon>
+    <Compile Include="StudentHomePage.Designer.cs">
+      <DependentUpon>StudentHomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="StudentLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="StudentLogin.Designer.cs">
+      <DependentUpon>StudentLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Registration.cs">
+    <Compile Include="messages.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registration.Designer.cs">
-      <DependentUpon>Registration.cs</DependentUpon>
+    <Compile Include="messages.Designer.cs">
+      <DependentUpon>messages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentRegistration.Designer.cs">
+      <DependentUpon>StudentRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,17 +123,26 @@
     <EmbeddedResource Include="addAcademic.resx">
       <DependentUpon>addAcademic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin_Main_Menu.resx">
-      <DependentUpon>Admin_Main_Menu.cs</DependentUpon>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminRegistration.resx">
+      <DependentUpon>AdminRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMainMenu.resx">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Feedback.resx">
       <DependentUpon>Feedback.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomePage.resx">
-      <DependentUpon>HomePage.cs</DependentUpon>
+    <EmbeddedResource Include="StudentHomePage.resx">
+      <DependentUpon>StudentHomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="StudentLogin.resx">
+      <DependentUpon>StudentLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messages.resx">
+      <DependentUpon>messages.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,8 +154,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Registration.resx">
-      <DependentUpon>Registration.cs</DependentUpon>
+    <EmbeddedResource Include="StudentRegistration.resx">
+      <DependentUpon>StudentRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Module_AI.resx">
       <DependentUpon>Module_AI.cs</DependentUpon>

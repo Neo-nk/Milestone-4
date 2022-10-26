@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class Login
+    partial class StudentLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(531, 883);
+            this.panel1.Size = new System.Drawing.Size(531, 900);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -88,9 +88,9 @@ namespace WindowsFormsApp1
             this.lblUsername.Location = new System.Drawing.Point(552, 217);
             this.lblUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(163, 32);
+            this.lblUsername.Size = new System.Drawing.Size(192, 32);
             this.lblUsername.TabIndex = 4;
-            this.lblUsername.Text = "User Name:";
+            this.lblUsername.Text = "Student Email";
             this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // label2
@@ -186,7 +186,7 @@ namespace WindowsFormsApp1
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(105)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(1083, 0);
+            this.button2.Location = new System.Drawing.Point(1235, 1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(65, 53);
             this.button2.TabIndex = 25;
@@ -194,12 +194,12 @@ namespace WindowsFormsApp1
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Login
+            // StudentLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(105)))));
-            this.ClientSize = new System.Drawing.Size(1150, 883);
+            this.ClientSize = new System.Drawing.Size(1300, 900);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lblError);
             this.Controls.Add(this.btnLogin);
@@ -214,7 +214,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Login";
+            this.Name = "StudentLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);

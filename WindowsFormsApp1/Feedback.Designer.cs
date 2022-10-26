@@ -89,7 +89,7 @@ namespace WindowsFormsApp1
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(24, 302);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(608, 102);
             this.button1.TabIndex = 2;
@@ -102,7 +102,7 @@ namespace WindowsFormsApp1
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(754, 302);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(608, 102);
             this.button2.TabIndex = 3;
@@ -114,7 +114,7 @@ namespace WindowsFormsApp1
             this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(24, 438);
-            this.button3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button3.Margin = new System.Windows.Forms.Padding(6);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(608, 102);
             this.button3.TabIndex = 4;
@@ -126,7 +126,7 @@ namespace WindowsFormsApp1
             this.button4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(754, 437);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(608, 102);
             this.button4.TabIndex = 5;
@@ -138,7 +138,7 @@ namespace WindowsFormsApp1
             this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(24, 567);
-            this.button5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(6);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(608, 102);
             this.button5.TabIndex = 6;
@@ -151,7 +151,7 @@ namespace WindowsFormsApp1
             this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(754, 567);
-            this.button6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button6.Margin = new System.Windows.Forms.Padding(6);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(608, 102);
             this.button6.TabIndex = 7;
@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
             this.btnGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnGreen.Location = new System.Drawing.Point(550, 302);
-            this.btnGreen.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen.Name = "btnGreen";
             this.btnGreen.Size = new System.Drawing.Size(82, 50);
             this.btnGreen.TabIndex = 16;
@@ -177,7 +177,7 @@ namespace WindowsFormsApp1
             this.btnRed.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed.Location = new System.Drawing.Point(550, 354);
-            this.btnRed.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed.Name = "btnRed";
             this.btnRed.Size = new System.Drawing.Size(82, 50);
             this.btnRed.TabIndex = 17;
@@ -189,7 +189,7 @@ namespace WindowsFormsApp1
             this.btnRed5.BackColor = System.Drawing.Color.Red;
             this.btnRed5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed5.Location = new System.Drawing.Point(1280, 619);
-            this.btnRed5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed5.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed5.Name = "btnRed5";
             this.btnRed5.Size = new System.Drawing.Size(82, 50);
             this.btnRed5.TabIndex = 18;
@@ -201,7 +201,7 @@ namespace WindowsFormsApp1
             this.btnGreen5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGreen5.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen5.Location = new System.Drawing.Point(1280, 567);
-            this.btnGreen5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen5.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen5.Name = "btnGreen5";
             this.btnGreen5.Size = new System.Drawing.Size(82, 50);
             this.btnGreen5.TabIndex = 19;
@@ -213,7 +213,7 @@ namespace WindowsFormsApp1
             this.btnRed3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRed3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed3.Location = new System.Drawing.Point(1280, 488);
-            this.btnRed3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed3.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed3.Name = "btnRed3";
             this.btnRed3.Size = new System.Drawing.Size(82, 50);
             this.btnRed3.TabIndex = 20;
@@ -225,7 +225,7 @@ namespace WindowsFormsApp1
             this.btnGreen3.BackColor = System.Drawing.Color.Green;
             this.btnGreen3.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen3.Location = new System.Drawing.Point(1280, 437);
-            this.btnGreen3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen3.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen3.Name = "btnGreen3";
             this.btnGreen3.Size = new System.Drawing.Size(82, 50);
             this.btnGreen3.TabIndex = 21;
@@ -237,7 +237,7 @@ namespace WindowsFormsApp1
             this.btnRed1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRed1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed1.Location = new System.Drawing.Point(1280, 354);
-            this.btnRed1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed1.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed1.Name = "btnRed1";
             this.btnRed1.Size = new System.Drawing.Size(82, 50);
             this.btnRed1.TabIndex = 22;
@@ -249,7 +249,7 @@ namespace WindowsFormsApp1
             this.btnGreen1.BackColor = System.Drawing.Color.Green;
             this.btnGreen1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen1.Location = new System.Drawing.Point(1280, 302);
-            this.btnGreen1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen1.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen1.Name = "btnGreen1";
             this.btnGreen1.Size = new System.Drawing.Size(82, 50);
             this.btnGreen1.TabIndex = 23;
@@ -261,7 +261,7 @@ namespace WindowsFormsApp1
             this.btnRed4.BackColor = System.Drawing.Color.Red;
             this.btnRed4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed4.Location = new System.Drawing.Point(550, 619);
-            this.btnRed4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed4.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed4.Name = "btnRed4";
             this.btnRed4.Size = new System.Drawing.Size(82, 50);
             this.btnRed4.TabIndex = 24;
@@ -274,7 +274,7 @@ namespace WindowsFormsApp1
             this.btnGreen4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGreen4.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen4.Location = new System.Drawing.Point(550, 567);
-            this.btnGreen4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen4.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen4.Name = "btnGreen4";
             this.btnGreen4.Size = new System.Drawing.Size(82, 50);
             this.btnGreen4.TabIndex = 25;
@@ -286,7 +286,7 @@ namespace WindowsFormsApp1
             this.btnRed2.BackColor = System.Drawing.Color.Red;
             this.btnRed2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRed2.Location = new System.Drawing.Point(550, 490);
-            this.btnRed2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnRed2.Margin = new System.Windows.Forms.Padding(6);
             this.btnRed2.Name = "btnRed2";
             this.btnRed2.Size = new System.Drawing.Size(82, 50);
             this.btnRed2.TabIndex = 26;
@@ -298,7 +298,7 @@ namespace WindowsFormsApp1
             this.btnGreen2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGreen2.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGreen2.Location = new System.Drawing.Point(550, 446);
-            this.btnGreen2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnGreen2.Margin = new System.Windows.Forms.Padding(6);
             this.btnGreen2.Name = "btnGreen2";
             this.btnGreen2.Size = new System.Drawing.Size(82, 50);
             this.btnGreen2.TabIndex = 27;
@@ -473,7 +473,7 @@ namespace WindowsFormsApp1
             this.btnLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoad.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLoad.Location = new System.Drawing.Point(326, 713);
-            this.btnLoad.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(6);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(274, 96);
             this.btnLoad.TabIndex = 51;
@@ -483,9 +483,9 @@ namespace WindowsFormsApp1
             // 
             // pictureBox2
             // 
-           
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.feedback;
             this.pictureBox2.Location = new System.Drawing.Point(566, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(928, 219);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -496,7 +496,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox8.Image = global::WindowsFormsApp1.Properties.Resources.health_systems;
             this.pictureBox8.Location = new System.Drawing.Point(24, 437);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(172, 102);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -507,7 +507,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox7.Image = global::WindowsFormsApp1.Properties.Resources.information_systems;
             this.pictureBox7.Location = new System.Drawing.Point(24, 567);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(172, 102);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -518,7 +518,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.psychology;
             this.pictureBox6.Location = new System.Drawing.Point(754, 567);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(172, 102);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -529,7 +529,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.psychology;
             this.pictureBox5.Location = new System.Drawing.Point(754, 437);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(172, 102);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -540,7 +540,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.biology;
             this.pictureBox4.Location = new System.Drawing.Point(754, 302);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(172, 102);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -552,7 +552,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.information_systems;
             this.pictureBox3.Location = new System.Drawing.Point(24, 302);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(172, 102);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -561,9 +561,9 @@ namespace WindowsFormsApp1
             // 
             // pictureBox1
             // 
-            
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._003;
             this.pictureBox1.Location = new System.Drawing.Point(-12, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(584, 219);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -573,10 +573,10 @@ namespace WindowsFormsApp1
             // btnHome
             // 
             this.btnHome.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            
+            this.btnHome.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.home12;
             this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHome.Location = new System.Drawing.Point(902, 733);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(6);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(100, 77);
             this.btnHome.TabIndex = 61;
@@ -586,10 +586,10 @@ namespace WindowsFormsApp1
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            
+            this.btnSave.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.SAVE;
             this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSave.Location = new System.Drawing.Point(722, 733);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(6);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(106, 77);
             this.btnSave.TabIndex = 63;
@@ -602,7 +602,7 @@ namespace WindowsFormsApp1
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnExit.Location = new System.Drawing.Point(1404, 23);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(6);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(66, 58);
             this.btnExit.TabIndex = 64;
@@ -661,7 +661,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Feedback";
             this.Text = "Feedback";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

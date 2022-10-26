@@ -63,6 +63,16 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _003 {
+            get {
+                object obj = ResourceManager.GetObject("003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _01 {
             get {
                 object obj = ResourceManager.GetObject("01", resourceCulture);
@@ -173,6 +183,26 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap feedback {
+            get {
+                object obj = ResourceManager.GetObject("feedback", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ff {
+            get {
+                object obj = ResourceManager.GetObject("ff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap group_profile_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("group profile icon (1)", resourceCulture);
@@ -226,6 +256,36 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap home1 {
             get {
                 object obj = ResourceManager.GetObject("home1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home11 {
+            get {
+                object obj = ResourceManager.GetObject("home11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home12 {
+            get {
+                object obj = ResourceManager.GetObject("home12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home2 {
+            get {
+                object obj = ResourceManager.GetObject("home2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -427,6 +487,16 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap S {
             get {
                 object obj = ResourceManager.GetObject("S", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SAVE {
+            get {
+                object obj = ResourceManager.GetObject("SAVE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

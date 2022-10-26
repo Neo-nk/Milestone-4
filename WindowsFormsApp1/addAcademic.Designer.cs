@@ -228,7 +228,7 @@ namespace WindowsFormsApp1
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(1072, 6);
+            this.button1.Location = new System.Drawing.Point(1096, -3);
             this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(66, 58);
@@ -290,11 +290,12 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.group_profile_icon__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(386, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(386, -2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(662, 187);
+            this.pictureBox1.Size = new System.Drawing.Size(701, 187);
             this.pictureBox1.TabIndex = 45;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnDropDown2
             // 
@@ -366,7 +367,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox6.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.ACADEMICS;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(-2, 6);
+            this.pictureBox6.Location = new System.Drawing.Point(-2, -4);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(392, 140);
@@ -443,6 +444,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "addAcademic";
             this.Text = "Academics";

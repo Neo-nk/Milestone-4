@@ -504,7 +504,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1165, 989);
+            this.ClientSize = new System.Drawing.Size(1300, 1000);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnExit);
@@ -542,6 +542,7 @@ namespace WindowsFormsApp1
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "StudentCourses";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "courses";
             this.Load += new System.EventHandler(this.courses_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();

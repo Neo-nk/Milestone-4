@@ -139,6 +139,9 @@
   <data name="biology" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\biology.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,11 +181,17 @@
   <data name="health systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\health systems.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="psychology" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\psychology.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="S" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="noti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\noti1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="REGISTRATION (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\REGISTRATION (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,14 +202,14 @@
   <data name="Courses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Courses.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cloud computing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cloud computing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="notifications" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\notifications.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tutmate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tutmate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="feedback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\feedback.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,14 +217,23 @@
   <data name="main1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="P" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ACADEMICS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ACADEMICS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="psychology" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\psychology.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cloud computing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloud computing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ADMIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADMIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,22 +241,25 @@
   <data name="information systems" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\information systems.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="group profile icon (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\group profile icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="group profile icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\group profile icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eye icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eye icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group profile icon (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\group profile icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notifications" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notifications.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="profile icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ADMIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ADMIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

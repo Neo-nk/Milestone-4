@@ -53,16 +53,16 @@ namespace WindowsFormsApp1
 
         private void btnHomepage_Click(object sender, EventArgs e)
         {
-            Form1 NewForm1 = new Form1();
+            StudentHomePage home = new StudentHomePage();
             this.Visible = false;
-            NewForm1.ShowDialog();
+            home.ShowDialog();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Form1 NewForm1 = new Form1();
+            StudentHomePage home = new StudentHomePage();
             this.Visible = false;
-            NewForm1.ShowDialog();
+            home.ShowDialog();
         }
 
         private void btnStudentPage_Click(object sender, EventArgs e)

@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Registration registration = new Registration();
+            StudentRegistration registration = new StudentRegistration();
             this.Visible = false;
             registration.ShowDialog();
             
@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
+            StudentLogin login = new StudentLogin();
             this.Visible = false;
             login.ShowDialog();
             
@@ -41,6 +41,40 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if ((radStudent.Checked==true || radAdmin.Checked==true) && (radRegister.Checked==true || radLogin.Checked == true))
+            {
+                if (radStudent.Checked && radRegister.Checked)
+                {
+                    StudentRegistration Sregister = new StudentRegistration();
+                    this.Visible = false;
+                    Sregister.ShowDialog();
+                }
+                else if( radStudent.Checked== true && radLogin.Checked == true)
+                {
+                    StudentLogin login = new StudentLogin();
+                    this.Visible = false;
+                    login.ShowDialog();
+                }
+                else if(radAdmin.Checked == true && radRegister.Checked == true)
+                {
+                    AdminRegistration register = new AdminRegistration();
+                    this.Visible = false;
+                    register.ShowDialog();
+                }
+                else if (radAdmin.Checked == true && radLogin.Checked == true)
+                {
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("ERROR", "Please select a user type and login/register");
+            }
         }
     }
 }
