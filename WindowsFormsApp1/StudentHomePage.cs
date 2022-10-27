@@ -79,5 +79,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnModule1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

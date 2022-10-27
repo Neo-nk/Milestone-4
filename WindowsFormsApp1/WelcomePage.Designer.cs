@@ -39,6 +39,7 @@ namespace WindowsFormsApp1
             this.radRegister = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbStudAdmin.SuspendLayout();
             this.gbRegLog.SuspendLayout();
@@ -168,12 +169,28 @@ namespace WindowsFormsApp1
             this.label1.TabIndex = 30;
             this.label1.Text = "Welcome!";
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.MidnightBlue;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnExit.Location = new System.Drawing.Point(1233, -2);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(6);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(54, 58);
+            this.btnExit.TabIndex = 87;
+            this.btnExit.Text = "X";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // WelcomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(105)))));
             this.ClientSize = new System.Drawing.Size(1300, 900);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gbRegLog);
@@ -207,5 +224,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.RadioButton radRegister;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnExit;
     }
 }

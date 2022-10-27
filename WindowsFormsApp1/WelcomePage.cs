@@ -76,5 +76,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("ERROR", "Please select a user type and login/register");
             }
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

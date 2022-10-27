@@ -47,6 +47,8 @@ namespace WindowsFormsApp1
             this.btnExit = new System.Windows.Forms.Button();
             this.lblLastName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtStudentNumber = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -103,7 +105,7 @@ namespace WindowsFormsApp1
             this.lblStudMail.AutoSize = true;
             this.lblStudMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudMail.ForeColor = System.Drawing.Color.White;
-            this.lblStudMail.Location = new System.Drawing.Point(569, 520);
+            this.lblStudMail.Location = new System.Drawing.Point(936, 331);
             this.lblStudMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStudMail.Name = "lblStudMail";
             this.lblStudMail.Size = new System.Drawing.Size(209, 32);
@@ -116,7 +118,7 @@ namespace WindowsFormsApp1
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(571, 355);
+            this.lblPassword.Location = new System.Drawing.Point(573, 518);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(146, 32);
@@ -129,7 +131,7 @@ namespace WindowsFormsApp1
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(938, 355);
+            this.label2.Location = new System.Drawing.Point(940, 518);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(252, 32);
@@ -185,7 +187,7 @@ namespace WindowsFormsApp1
             // 
             // lblConfirmPass
             // 
-            this.lblConfirmPass.Location = new System.Drawing.Point(942, 403);
+            this.lblConfirmPass.Location = new System.Drawing.Point(944, 566);
             this.lblConfirmPass.Multiline = true;
             this.lblConfirmPass.Name = "lblConfirmPass";
             this.lblConfirmPass.PasswordChar = '*';
@@ -194,7 +196,7 @@ namespace WindowsFormsApp1
             // 
             // lblPass
             // 
-            this.lblPass.Location = new System.Drawing.Point(577, 403);
+            this.lblPass.Location = new System.Drawing.Point(579, 566);
             this.lblPass.Multiline = true;
             this.lblPass.Name = "lblPass";
             this.lblPass.PasswordChar = '*';
@@ -203,7 +205,7 @@ namespace WindowsFormsApp1
             // 
             // lblEmail
             // 
-            this.lblEmail.Location = new System.Drawing.Point(575, 577);
+            this.lblEmail.Location = new System.Drawing.Point(942, 388);
             this.lblEmail.Multiline = true;
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(317, 45);
@@ -257,12 +259,36 @@ namespace WindowsFormsApp1
             this.label1.TabIndex = 88;
             this.label1.Text = "Last Name";
             // 
+            // txtStudentNumber
+            // 
+            this.txtStudentNumber.Location = new System.Drawing.Point(575, 388);
+            this.txtStudentNumber.Multiline = true;
+            this.txtStudentNumber.Name = "txtStudentNumber";
+            this.txtStudentNumber.Size = new System.Drawing.Size(317, 45);
+            this.txtStudentNumber.TabIndex = 91;
+            this.txtStudentNumber.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(569, 331);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(220, 32);
+            this.label3.TabIndex = 90;
+            this.label3.Text = "Student Number";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // StudentRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(15)))), ((int)(((byte)(105)))));
             this.ClientSize = new System.Drawing.Size(1300, 900);
+            this.Controls.Add(this.txtStudentNumber);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnExit);
@@ -313,6 +339,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.TextBox lblLastName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtStudentNumber;
+        private System.Windows.Forms.Label label3;
     }
 }
 

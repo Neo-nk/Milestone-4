@@ -75,9 +75,9 @@ namespace WindowsFormsApp1
                     if (Students[user] == password)
                     {
                         validPassword = true;
-                        HomePage Home = new HomePage();
+                        //HomePage Home = new HomePage();
                       
-                        Home.ShowDialog();
+                        //Home.ShowDialog();
                         this.Visible = false;
                     }
                     else

@@ -41,7 +41,9 @@ namespace WindowsFormsApp1
             this.btnProfilePage = new System.Windows.Forms.Button();
             this.btnNotification = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -84,7 +86,7 @@ namespace WindowsFormsApp1
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnExit.Location = new System.Drawing.Point(1504, 23);
+            this.btnExit.Location = new System.Drawing.Point(1528, 3);
             this.btnExit.Margin = new System.Windows.Forms.Padding(6);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(66, 58);
@@ -162,6 +164,7 @@ namespace WindowsFormsApp1
             this.btnProfilePage.Size = new System.Drawing.Size(308, 235);
             this.btnProfilePage.TabIndex = 14;
             this.btnProfilePage.UseVisualStyleBackColor = true;
+            this.btnProfilePage.Click += new System.EventHandler(this.btnProfilePage_Click);
             // 
             // btnNotification
             // 
@@ -186,12 +189,22 @@ namespace WindowsFormsApp1
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Tutmate;
+            this.pictureBox2.Location = new System.Drawing.Point(-12, -189);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(564, 373);
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            // 
             // Main_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1594, 865);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnHomepage);
             this.Controls.Add(this.btnFeedback);
@@ -204,10 +217,13 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.lblClick);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Main_Menu";
             this.Text = "Main_Menu";
+            this.Load += new System.EventHandler(this.Main_Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,5 +243,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnFeedback;
         private System.Windows.Forms.Button btnHomepage;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -31,11 +31,17 @@ namespace WindowsFormsApp1
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnSettings = new System.Windows.Forms.Button();
             this.btnProfile = new System.Windows.Forms.Button();
             this.btnNotifications = new System.Windows.Forms.Button();
             this.btnCourses = new System.Windows.Forms.Button();
             this.btnReport = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,28 +52,22 @@ namespace WindowsFormsApp1
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnImageModule2 = new System.Windows.Forms.Button();
             this.btnModule2 = new System.Windows.Forms.Button();
             this.btnModule1 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btnImageModule2 = new System.Windows.Forms.Button();
             this.btnImageModule1 = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -106,6 +106,61 @@ namespace WindowsFormsApp1
             this.button2.TabIndex = 3;
             this.button2.Text = "Selected Courses";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.settings;
+            this.pictureBox6.Location = new System.Drawing.Point(152, 784);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(75, 64);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.profile_icon;
+            this.pictureBox5.Location = new System.Drawing.Point(18, 784);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(75, 64);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.notifications;
+            this.pictureBox4.Location = new System.Drawing.Point(18, 569);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(75, 64);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.report;
+            this.pictureBox3.Location = new System.Drawing.Point(18, 462);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(75, 64);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.Courses;
+            this.pictureBox2.Location = new System.Drawing.Point(18, 352);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(75, 64);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
             // 
             // btnSettings
             // 
@@ -187,6 +242,17 @@ namespace WindowsFormsApp1
             this.btnReport.Text = "Report";
             this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReport.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.STUDENT;
+            this.pictureBox1.Location = new System.Drawing.Point(-76, -28);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(442, 320);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // btnSearch
             // 
@@ -321,6 +387,17 @@ namespace WindowsFormsApp1
             this.panel2.Size = new System.Drawing.Size(332, 316);
             this.panel2.TabIndex = 28;
             // 
+            // btnImageModule2
+            // 
+            this.btnImageModule2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnImageModule2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnImageModule2.Image = global::WindowsFormsApp1.Properties.Resources.information_systems;
+            this.btnImageModule2.Location = new System.Drawing.Point(-2, -2);
+            this.btnImageModule2.Name = "btnImageModule2";
+            this.btnImageModule2.Size = new System.Drawing.Size(334, 219);
+            this.btnImageModule2.TabIndex = 2;
+            this.btnImageModule2.UseVisualStyleBackColor = false;
+            // 
             // btnModule2
             // 
             this.btnModule2.BackColor = System.Drawing.Color.LightSkyBlue;
@@ -342,6 +419,7 @@ namespace WindowsFormsApp1
             this.btnModule1.TabIndex = 1;
             this.btnModule1.Text = "Psychology";
             this.btnModule1.UseVisualStyleBackColor = false;
+            this.btnModule1.Click += new System.EventHandler(this.btnModule1_Click);
             // 
             // panel5
             // 
@@ -355,28 +433,6 @@ namespace WindowsFormsApp1
             this.panel5.Size = new System.Drawing.Size(332, 316);
             this.panel5.TabIndex = 27;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(331, 64);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(347, 73);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "Dashboard";
-            // 
-            // btnImageModule2
-            // 
-            this.btnImageModule2.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.btnImageModule2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnImageModule2.Image = global::WindowsFormsApp1.Properties.Resources.information_systems;
-            this.btnImageModule2.Location = new System.Drawing.Point(-2, -2);
-            this.btnImageModule2.Name = "btnImageModule2";
-            this.btnImageModule2.Size = new System.Drawing.Size(334, 219);
-            this.btnImageModule2.TabIndex = 2;
-            this.btnImageModule2.UseVisualStyleBackColor = false;
-            // 
             // btnImageModule1
             // 
             this.btnImageModule1.BackColor = System.Drawing.Color.LightSkyBlue;
@@ -389,73 +445,18 @@ namespace WindowsFormsApp1
             this.btnImageModule1.UseVisualStyleBackColor = false;
             this.btnImageModule1.Click += new System.EventHandler(this.btnImageModule1_Click);
             // 
-            // pictureBox6
+            // label7
             // 
-            this.pictureBox6.Image = global::WindowsFormsApp1.Properties.Resources.settings;
-            this.pictureBox6.Location = new System.Drawing.Point(152, 784);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(75, 64);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label7.Location = new System.Drawing.Point(331, 64);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(347, 73);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Dashboard";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::WindowsFormsApp1.Properties.Resources.profile_icon;
-            this.pictureBox5.Location = new System.Drawing.Point(18, 784);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(75, 64);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 2;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.notifications;
-            this.pictureBox4.Location = new System.Drawing.Point(18, 569);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(75, 64);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.report;
-            this.pictureBox3.Location = new System.Drawing.Point(18, 462);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(75, 64);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.Courses;
-            this.pictureBox2.Location = new System.Drawing.Point(18, 352);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 64);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.STUDENT;
-            this.pictureBox1.Location = new System.Drawing.Point(-76, -28);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(442, 320);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // HomePage
+            // StudentHomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -470,20 +471,20 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.btnSearch);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "HomePage";
+            this.Name = "StudentHomePage";
             this.Text = " ";
             this.Load += new System.EventHandler(this.HomePage_Load);
             this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

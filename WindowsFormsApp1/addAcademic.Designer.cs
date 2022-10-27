@@ -147,14 +147,14 @@ namespace WindowsFormsApp1
             this.txtLastName.Size = new System.Drawing.Size(600, 67);
             this.txtLastName.TabIndex = 28;
             // 
-            // txtEmail
+            // txtAdminID
             // 
             this.txtEmail.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtEmail.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtEmail.Location = new System.Drawing.Point(434, 594);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(6);
             this.txtEmail.Multiline = true;
-            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Name = "txtAdminID";
             this.txtEmail.Size = new System.Drawing.Size(600, 67);
             this.txtEmail.TabIndex = 29;
             this.txtEmail.Text = "@gmail.com";

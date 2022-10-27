@@ -11,7 +11,12 @@ using System.Windows.Forms;
 namespace WindowsFormsApp1
 {
     public partial class Main_Menu : Form
+
     {
+        public string AdminID { get; set; }
+       
+
+
         public Main_Menu()
         {
             InitializeComponent();
@@ -60,12 +65,20 @@ namespace WindowsFormsApp1
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            StudentHomePage home = new StudentHomePage();
-            this.Visible = false;
-            home.ShowDialog();
+            Application.Exit();
         }
 
         private void btnStudentPage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProfilePage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Main_Menu_Load(object sender, EventArgs e)
         {
 
         }

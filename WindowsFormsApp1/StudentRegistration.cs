@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,11 @@ namespace WindowsFormsApp1
 {
     public partial class StudentRegistration : Form
     {
+        //database connection initialization;
+        OleDbConnection con;
+        OleDbCommand cmd;
+        OleDbDataReader dr;
+
         public StudentRegistration()
         {
             InitializeComponent();
@@ -84,68 +90,82 @@ namespace WindowsFormsApp1
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            Dictionary<string, string> Students = new Dictionary<string, string>();
-            Students["1234567"] = "TMPass1000";
-            Students["7654321"] = "TMPass1001";
-            Students["4812162"] = "TMPass1002";
-            Students["3691215"] = "TMPass1003";
-            Students["2478923"] = "TMPass1004";
-            Students["2437872"] = "TMPass1499";
+           
 
-            String user = lblFirstName.Text.ToString();
+            String fName = lblFirstName.Text.ToString();
             String surname = lblLastName.Text.ToString();
             String pass = lblPass.Text.ToString();
             String confirmPass = lblConfirmPass.Text.ToString();
             String email = lblEmail.Text.ToString();
-            if (user!="" && pass!="" && confirmPass!= "" && email!="" && surname!="")
+            String studentNo = txtStudentNumber.Text;
+
+            // more readable validation steps :)
+
+            if (fName == "" || pass == "" || confirmPass == "" || email == "" || surname == "" || studentNo == "")
             {
-                if (Students.ContainsKey(user) == false)
+                MessageBox.Show("Please fill in all empty fields", "ERROR");
+            }
+
+            else if (pass != confirmPass)
+            {
+                MessageBox.Show("Passwords do not match.", "ERROR");
+            }
+
+            else if (email.Contains("@students.wits.ac.za") == false)
+            {
+                MessageBox.Show("Invalid email. Please enter a valid student email", "ERROR");
+            }
+
+            else if (ChkTermsConditions.Checked == false)
+            {
+                MessageBox.Show("Tick the box indicating that you agree with our terms and conditions to register", "TERMS OF SERVICE");
+            }
+
+            else if (txtStudentNumber.Text == "")
+            {
+                MessageBox.Show("Tick the box indicating that you agree with our terms and conditions to register", "TERMS OF SERVICE");
+            }
+
+            else if (pass.Length < 8 == true)
+            {
+                MessageBox.Show("Password should be at least 8 characters", "ERROR");
+            }
+
+
+            else // all form-related validation is passed if this code runs
+            { 
+                con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\neonkosi\source\repos\Milestone-4\TutMate.accdb");
+                con.Open();
+                bool inDB = false;
+                cmd = new OleDbCommand("select * from Student where StudentNo=" +studentNo, con);
+                dr = cmd.ExecuteReader();
+
+                if (dr.Read())
                 {
-                    if (pass == confirmPass)
-                    {
-                        if (email.Contains("@students.wits.ac.za"))
-                        {
-                            if (ChkTermsConditions.Checked == true)
-                            {
-                                if (pass.Length < 8 == false)
-                                {
-                                    Students[user] = pass;
-                                    StudentCourses c = new StudentCourses();
-                                    this.Visible = false;
-                                    c.ShowDialog();
-                                }
-                                else
-                                {
-                                    MessageBox.Show("Password should be at least 8 characters", "ERROR");
-                                }
-                            }
-                            else
-                            {
-                                MessageBox.Show("Tick the box indicating that you agree with our terms and conditions to register", "TERMS OF SERVICE");
-                            }
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid email. Please enter a valid student email", "ERROR");
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Passwords do not match.", "ERROR");
-                    }
+                    MessageBox.Show("Student number already registered");
                 }
                 else
                 {
-                    MessageBox.Show("Username already registered, please use your student number. If you forgot your password, please contact the administrative office", "ERROR");
+                    cmd = new OleDbCommand("insert into Student([StudentNo], [FName], [Surname], [Password], [StudentEmail]) " +
+                        "values ('"+ studentNo +"','" + fName + "','" + surname + "', '"+ pass + "', '" +email + "')", con);
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                    StudentCourses courses = new StudentCourses();
+
+                    courses.studentNo = this.txtStudentNumber.Text;
+                    //this is how we pass data from one form to another
+                    //super important for ensuring student is always accessing their content
+                    //no alternatives here, ask for explanation and I'll happily explain
+
+                    this.Visible = false;
+                    courses.ShowDialog();
+                    
                 }
-            }
-            else
-            {
-                MessageBox.Show("Please fill empty fields");
+
             }
         }
 
-        private void label9_Click(object sender, EventArgs e)
+            private void label9_Click(object sender, EventArgs e)
         {
             StudentLogin log = new StudentLogin();
             this.Visible = false;
@@ -155,6 +175,16 @@ namespace WindowsFormsApp1
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

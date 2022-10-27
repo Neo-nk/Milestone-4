@@ -33,7 +33,7 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.Register = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.txtAdminID = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lblCancel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -78,6 +78,7 @@
             this.btnLogin.TabIndex = 35;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // Register
             // 
@@ -90,6 +91,7 @@
             this.Register.TabIndex = 34;
             this.Register.Text = "Register";
             this.Register.UseVisualStyleBackColor = false;
+            this.Register.Click += new System.EventHandler(this.Register_Click);
             // 
             // txtPassword
             // 
@@ -100,12 +102,13 @@
             this.txtPassword.TabIndex = 33;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // txtUsername
+            // txtAdminID
             // 
-            this.txtUsername.Location = new System.Drawing.Point(561, 268);
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(354, 31);
-            this.txtUsername.TabIndex = 32;
+            this.txtAdminID.Location = new System.Drawing.Point(561, 268);
+            this.txtAdminID.Name = "txtAdminID";
+            this.txtAdminID.Size = new System.Drawing.Size(354, 31);
+            this.txtAdminID.TabIndex = 32;
+            this.txtAdminID.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label8
             // 
@@ -150,9 +153,9 @@
             this.lblUsername.Location = new System.Drawing.Point(555, 187);
             this.lblUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(261, 32);
+            this.lblUsername.Size = new System.Drawing.Size(216, 32);
             this.lblUsername.TabIndex = 28;
-            this.lblUsername.Text = "Administrator Email";
+            this.lblUsername.Text = "Administrator ID";
             this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // lblLogin
@@ -200,7 +203,7 @@
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.Register);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtAdminID);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.lblCancel);
             this.Controls.Add(this.label2);
@@ -224,7 +227,7 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button Register;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtAdminID;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblCancel;
         private System.Windows.Forms.Label label2;

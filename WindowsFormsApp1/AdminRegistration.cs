@@ -33,49 +33,49 @@ namespace WindowsFormsApp1
             String confirmPass = lblConfirmPass.Text.ToString();
             String email = lblEmail.Text.ToString();
 
-            if (name!="" && pass!="" && confirmPass!= "" && email!="" && surname!="")
+            if (name!="" && pass!="" && confirmPass!= "" && email!="" && surname!="") // checking if textbox is empty
             {
-                if (Admins.ContainsKey(name) == false)
+                if (Admins.ContainsKey(name) == false) //checking if if admin name is in "database"
                 {
-                    if (pass == confirmPass)
+                    if (pass == confirmPass) // checking if passwords match
                     {
-                        if (email.Contains("@students.wits.ac.za"))
+                        if (email.Contains("@students.wits.ac.za"))//checking if the email contains correct ending
                         {
-                            if (ChkTermsConditions.Checked == true)
+                            if (ChkTermsConditions.Checked == true) // checking that the terms and conditons were agreed to 
                             {
-                                if (pass.Length < 8 == false)
+                                if (pass.Length < 8 == false)// checking if password is long enough
                                 {
                                     Admins[name] = pass;
                                     StudentCourses c = new StudentCourses();
                                     this.Visible = false;
                                     c.ShowDialog();
                                 }
-                                else
+                                else// password is too short
                                 {
                                     MessageBox.Show("Password should be at least 8 characters", "ERROR");
                                 }
                             }
-                            else
+                            else //box for T's and C's was not ticked
                             {
                                 MessageBox.Show("Tick the box indicating that you agree with our terms and conditions to register", "TERMS OF SERVICE");
                             }
                         }
-                        else
+                        else // Email is not a student email
                         {
                             MessageBox.Show("Invalid email. Please enter a valid student email", "ERROR");
                         }
                     }
-                    else
+                    else // passwords on form do not match
                     {
                         MessageBox.Show("Passwords do not match.", "ERROR");
                     }
                 }
-                else
+                else //username already in "database
                 {
                     MessageBox.Show("Username already registered, please use your student number. If you forgot your password, please contact the administrative office", "ERROR");
                 }
             }
-            else
+            else // fields are empty
             {
                 MessageBox.Show("Please fill empty fields");
             }
